@@ -1,0 +1,24 @@
+@charset "utf-8";
+/*
+Theme Name: A New Start
+Theme URI:
+Author: Brian Holt
+Author URI: brianholt.ca
+Description: A starter theme with none of that annoying stuff
+Version: 1.0
+*/
+
+/* Bootstrap Overrides ================== */
+body{}
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{}
+a {}
+a:hover, a:focus {}
+.form-control:focus {}
+.btn {}
+.btn:hover, .btn:focus {}
+.btn-primary {}
+.btn-primary:hover, .btn-primary:focus {}
+.has-error .help-block, .has-error .control-label, .has-error .radio, .has-error .checkbox, .has-error .radio-inline, .has-error .checkbox-inline {}
+.has-error .form-control {}
+.pager li>a{}
+.pager li>a:hover, .pager li>a:focus {}
